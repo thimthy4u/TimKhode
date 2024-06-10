@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    
     // Declare arrays for coefficients and constants
     double a[3][3];
     double d[3];
@@ -35,7 +36,7 @@ int main() {
         double tempA[3][3];
         for (int j = 0; j < 3; ++j) {
             for (int k = 0; k < 3; ++k) {
-                if (i == 0)
+                if(i == 0)
                     tempA[j][k] = (k == 0) ? d[j] : a[j][k];
                 else if (i == 1)
                     tempA[j][k] = (k == 1) ? d[j] : a[j][k];
