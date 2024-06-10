@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
-int main(){
 
-  cout<<"hello Tim";
-  
+#include "timlibrary/loop.h"
+
+int main()
+{
+  loop();
 
   return 0;
 }
